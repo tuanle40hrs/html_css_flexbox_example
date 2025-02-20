@@ -1,0 +1,18 @@
+main{
+	display: flex;
+	justify-content: flex-start;
+	background-color: grey;
+}
+
+section{
+	background-color: lightblue;
+	border: 2px solid;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 5px;
+	width: 120%;
+}
+
+section{
+	flex-shrink: 1;
+}

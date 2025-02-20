@@ -1,0 +1,36 @@
+.navbar{
+	background-color: #f1f1f1;
+	display: flex;
+	flex-flow: row nowrap;
+	font-size: 1.5em;
+	/*justify-content: space-around;*/
+	padding:0;
+	margin: 0;
+
+}
+
+
+.navbar li  {
+	list-style: none;
+	padding: 0.5rem;
+	text-align: center;
+	/*margin-bottom: 1px;*/
+	flex: 1  auto;
+	cursor: pointer;
+}
+
+.navbar li:hover{
+	background-color: #555;
+	color: white;
+
+}
+
+@media all and (max-width: 600px){
+	.navbar{
+		flex-direction: column;
+	}
+	.navbar li{
+		text-align: center;
+
+	}
+}

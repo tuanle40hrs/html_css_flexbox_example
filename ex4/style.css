@@ -1,0 +1,25 @@
+.father{
+	display: flex;
+	justify-content: space-between;
+	height: 300px;
+	background: grey;
+	align-items: flex-end;
+}
+
+.section{
+	height: 3em;
+	width: 50px;
+	background-color: blue;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.section:nth-child(2){
+	order: -1;
+}
+.section:nth-child(3){
+	order: 1;
+}
+/*.first{	order: -1; }
+.last{ 	order: 1; }*/

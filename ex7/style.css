@@ -1,0 +1,18 @@
+main{	
+	display: flex;
+	height: 200px;
+	background-color: grey;
+	align-content: flex-start;
+}
+
+section{
+	height: 50px;
+	background-color: lightblue;
+	text-align: center;
+	border: 1px solid;
+	flex-grow: 1;
+}
+
+section:nth-child(2){
+	align-self: flex-end;
+}

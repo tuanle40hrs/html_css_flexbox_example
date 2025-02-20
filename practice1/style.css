@@ -1,0 +1,43 @@
+.wrapper{
+	display: flex;
+	flex-flow: row wrap;
+}
+.wrapper > * {
+	text-align: center;
+	align-items: center;
+
+}
+.header{
+	background-color: orange;
+	flex: 1 100%;
+}
+
+
+.aside-left{ 
+	order:1; 
+	background-color: green;
+	flex-grow: 1;
+	vertical-align: middle;
+}
+.main{
+	order: 2;
+	flex: 3 0px;
+}
+.aside-right{
+	order:3;
+	background-color: pink;
+	flex-grow: 1;
+}
+
+.footer{
+	background-color: lightblue;
+	flex: 1 100%;
+	order: 4;
+}
+
+@media all and (max-width: 600px){
+	.wrapper > * {
+		padding: 10px;
+		flex: 1 100%;
+	}
+}
